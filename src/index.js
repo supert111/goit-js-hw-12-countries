@@ -1,5 +1,5 @@
 import './styles.css';
-import './js/theme';
+import './js/fetchCountries';
 
 
 import { alert, defaultModules } from '.././node_modules/@pnotify/core/dist/PNotify.js';
