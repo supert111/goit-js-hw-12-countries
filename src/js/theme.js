@@ -1,3 +1,5 @@
+var debounce = require('lodash.debounce');
+
 //{name}
 fetch('https://restcountries.eu/rest/v2/name/Colombia')
 .then(response => {
