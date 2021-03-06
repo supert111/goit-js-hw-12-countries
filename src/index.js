@@ -21,5 +21,5 @@ defaults.icons = 'material';
 defaultModules.set(PNotifyMobile, {});
 
 alert({
-  text: 'Notice me, senpai!'
+  text: 'Too many matches found. Please enter a more specific query!'
 });
