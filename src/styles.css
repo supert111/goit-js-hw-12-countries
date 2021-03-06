@@ -1,3 +1,7 @@
+/* @import '../node_modules/@pnotify/core/dist/PNotify.css'; 
+@import '../node_modules/@pnotify/mobile/dist/PNotifyMobile.css';  */
+/* @import './node_modules/@pnotify/mobile/dist/PNotifyMobile.css';
+@import './node_modules/@pnotify/core/dist/PNotify.css'; */
 html {
   box-sizing: border-box;
 }
