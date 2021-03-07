@@ -18,8 +18,10 @@ defaults.styling = 'material';
 defaults.icons = 'material';
 
  
-defaultModules.set(PNotifyMobile, {});
+// defaultModules.set(PNotifyMobile, {});
 
-alert({
-  text: 'Too many matches found. Please enter a more specific query!'
-});
+// alert({
+//   text: 'Too many matches found. Please enter a more specific query!'
+// });
+
+export {alert, defaultModules, PNotifyMobile};
