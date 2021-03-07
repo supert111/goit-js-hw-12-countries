@@ -1,6 +1,6 @@
-import itemsTemplate from '../templates/gallery-items.hbs';
-import menu from '../menu.json';
+// import itemsTemplate from '../templates/country-style.hbs';
 
-const markup = itemsTemplate(menu);
-const ulMenuRef = document.querySelector('ul.js-menu')
-ulMenuRef.insertAdjacentHTML('afterbegin', markup)
+
+// const markup = itemsTemplate(x);
+// const inputRef = document.querySelector('.seach-country');
+// inputRef.insertAdjacentHTML('afterend', markup)

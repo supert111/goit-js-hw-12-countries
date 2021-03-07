@@ -1,6 +1,6 @@
 import './styles.css';
 import './js/fetchCountries';
-
+import './js/themeplating';
 
 import { alert, defaultModules } from '.././node_modules/@pnotify/core/dist/PNotify.js';
 import * as PNotifyMobile from '.././node_modules/@pnotify/mobile/dist/PNotifyMobile.js';
