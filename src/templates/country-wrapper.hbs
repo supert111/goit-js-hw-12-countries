@@ -1,14 +1,25 @@
-  <h1>{{name}}</h1>
-<div class="entry">
-
-{{!-- <div class="country_item">
-    <p class="country_item_capital"><span>Capital:</span>{{capital}}</p>
-    <p class="country_item_population"><span>Population:</span>{{population}}</p>
-<ul class="country_languages"><span>Languages:</span>
   {{#each this}}
-    <li class="country_item_languages">{{languages}}</li>
+    <h1 class="country_name">{{name}}</h1>
+<div class="entry"> 
+  <div class="country_item">
+    <p class="country_item_capital"><span class="bold_font_text">Capital:</span> {{capital}}</p>
+    <p class="country_item_population"><span class="bold_font_text">Population:</span> {{population}}</p> 
+<ul class="country_languages"><span class="bold_font_text">Languages:</span>
+  {{#each languages}}
+    <li class="country_item_languages">{{name}}</li>
   {{/each}}
-</ul>   
-</div> --}}
-{{!-- <div class="country_flag">{{flag}}</div> --}}
+</ul>    
+</div>
+
+<div class="country_flag">
+  <article class="flag">
+            <img
+                src="{{flag}}"
+                alt="{{name}}"
+                class="flag__image"
+            />
+  </div>
  </div>
+  {{/each}} 
+  
+

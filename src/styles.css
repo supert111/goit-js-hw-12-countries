@@ -24,6 +24,9 @@ body {
    font-size: 30px;
   background-image: url('./images/bg-pattern.png');
 }
+.container {
+  padding: 20px;
+}
 .seach-country {
     display: block;
     margin: 50px auto 0 50px;
@@ -33,5 +36,28 @@ body {
     height: 50px;
     font-size: 25px;
     padding-left: 30px;
-    
+}
+.country_name {
+  text-align: center;
+}
+
+.country_item {
+ width: 900px;
+}
+
+.flag__image {
+  display: block;
+  max-width:70%;
+  max-height: 70%;
+}
+
+.bold_font_text {
+  font-weight: bold;
+}
+.entry {
+  display: flex;
+  padding-left: 30px;
+}
+.country_flag {
+  margin-left: 10%;
 }
